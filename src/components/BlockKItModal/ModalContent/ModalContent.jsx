@@ -14,14 +14,24 @@ import { ModalRadioButtons } from '../../RadioButtons/ModalRadioButtons/ModalRad
 import { ModalSlackImage } from '../../Image/ModalSlackImage/image'
 
 export const ModalContent = ({ data }) => {
-  return data.blocks.map((item) => {
+  
+  return ( <S.ScrollBlock>{data.blocks.map((item) => {
+    if (item.type === 'divider') {
+      return (
+        <S.Main>
+          <div style={{margin:'10px 0px'}}>
+          <Divier />
+          </div>
+        </S.Main>
+      );
+    }
     if(item.type === 'image'){
       return(
-       <S.Main>
+        <S.Main>
          <ModalSlackImage data={item}/>
        </S.Main>
       )
-   }
+    }
     if (item.element.type === 'checkboxes') {
       return (
         <S.Main>
@@ -86,13 +96,7 @@ export const ModalContent = ({ data }) => {
         </S.Main>
       );
     }
-    if (item.type === 'divider') {
-      return (
-        <S.Main>
-          <Divier />
-        </S.Main>
-      );
-    }
+  
     if (item.text.type === 'mrkdwn') {
       return (
         <S.Main>
@@ -108,5 +112,5 @@ export const ModalContent = ({ data }) => {
         </S.Main>
       );
     }
-  });
+  })}</S.ScrollBlock>);
 };

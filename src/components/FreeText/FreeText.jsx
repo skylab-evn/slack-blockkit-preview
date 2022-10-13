@@ -6,7 +6,7 @@ export const FreeText = ({data}) => {
         <>
           <S.Main>
          <S.Label>{data.label.text}</S.Label>
-            <S.Input placeholder="Write something"/>
+            <S.Input>Write something</S.Input>
           </S.Main>
         </>
     )

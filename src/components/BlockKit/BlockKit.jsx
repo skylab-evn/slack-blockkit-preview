@@ -16,24 +16,55 @@ import { MessageSlackImage } from '../Image/MessageImage/MessageImage';
 
 export const BlockKit = ({ data }) => {
   return data.blocks.map((item) => {
-    // console.log(item.type);
+    console.log(item.type);
+    if (item.type === 'divider') {
+      return (
+      
+        <Divier />
+      
+      )
+    }
     if(item.type === 'image'){
-      return <MessageSlackImage data={item}/>
+      return (
+        <S.Main>
+          <MessageSlackImage data={item}/>
+        </S.Main>
+        )
     }
-    if (item.type === 'section' && item.accessory.type === 'button') {
-      return <Button data={item} />;
-    }
+    // if (item.elements.type === 'button') {
+    //   return (
+    //   <S.Main>
+    //     <Button data={item} />
+    //   </S.Main>
+    //   )
+    // }
     if (item.element.type === 'checkboxes') {
-      return <Checkboxes data={item} />;
+      return (
+      <S.Main>
+        <Checkboxes data={item} />
+      </S.Main>
+      )
     }
     if (item.element.type === 'radio_buttons') {
-      return <RadioButtons data={item} />;
+      return (
+      <S.Main>
+        <RadioButtons data={item} />
+      </S.Main>
+      )
     }
     if (item.element.multiline === true) {
-      return <TextArea data={item} />;
+      return (
+      <S.Main>
+        <TextArea data={item} />
+      </S.Main>
+      )
     }
     if (item.element.type === 'timepicker') {
-      return <Timepicker data={item} />;
+      return (
+      <S.Main>
+        <Timepicker data={item} />
+      </S.Main>
+      )
     }
     if (item.element.type === 'plain_text_input') {
       return (
@@ -49,9 +80,7 @@ export const BlockKit = ({ data }) => {
         </S.Main>
       )
     }
-    if (item.type === 'divider') {
-      return <Divier />;
-    }
+    
     if ( item.element.type === 'datepicker') {
       return(
         <S.Main>
@@ -63,7 +92,11 @@ export const BlockKit = ({ data }) => {
       return <MarkdownText data={item} />;
     }
     if (item.type === 'section') {
-      return <PlainText data={item} />;
+      return (
+      <S.Main>
+        <PlainText data={item} />
+      </S.Main>
+      )
     }
     if (item.type === 'header') {
       return <Header data={item} />;

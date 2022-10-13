@@ -7,17 +7,20 @@ export const Main = styled.div`
 `;
 
 export const Text = styled.p`
-  text-align: left;
-  font-weight: 600;
+ font-size: 15px;
+ text-align: left;
+ margin: 10px 0;
+font-weight: 600;
 `;
 
 export const Timepicker = styled.div`
-  width: 190px;
+  width: 50%;
+  height: 32px;
   border: 1px solid #c1c1c1;  border-radius: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px;
+  padding:0px 5px;
   color: #1d1c1d;
   font-size: 13px;
   `

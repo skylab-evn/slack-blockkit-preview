@@ -9,19 +9,21 @@ export const Main = styled.div`
 `
 
 export const Text = styled.p`
- font-size: 15px;
+font-size: 15px;
  text-align: left;
- margin: 5px 0;
+ margin: 10px 0;
+font-weight: 600;
 `
 
 export const Datepicker = styled.div`
- width: 210px;
+ width: 50%;
+ height: 32px;
  display: flex;
  align-items: center;
  justify-content: space-between;
  font-size: 13px;
  cursor: default;
- padding:5px;
+ padding: 0px 5px;
  border-radius: 5px;
  background-color: inherit;
  border: 1px solid #c1c1c1;
@@ -31,8 +33,8 @@ export const Datepicker = styled.div`
 `
 
 export const Icon = styled(DownIcon)`
-  width: 10px;
-  height: 10px;
+width: 20px;
+height: 20px;
 `
 export const Calendar = styled(CalendarIcon)`
   width: 13px;

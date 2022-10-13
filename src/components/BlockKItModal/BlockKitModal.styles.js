@@ -13,4 +13,5 @@ export const Main = styled.div`
  border: 1px solid #efefef;
  border-radius: 0.5rem;
  box-shadow: 0px 8px 20px 15px #b5b5b5;
+
 `

@@ -5,13 +5,15 @@ import { ReactComponent as ClockIcon } from '../../../images/clock.svg'
 export const Main = styled.div``;
 
 export const Text = styled.p`
-  font-size: 15px;
-  text-align: left;
-  font-weight: 600;
+   font-size: 15px;
+ text-align: left;
+ margin: 10px 0;
+font-weight: 600;
 `;
 
 export const Timepicker = styled.div`
-  padding: 5px;
+  height: 36px;
+  padding:0px 5px;
   border: 1px solid #c1c1c1;
   border-radius: 5px;
   display: flex;
@@ -30,7 +32,7 @@ export const TimepickerInner = styled.div`
 
 export const TimepickerDownIcon = styled(DownIcon)`
  width: 20px;
- width: 20px;
+  height: 22px;
 `;
 
 export const Clock = styled(ClockIcon)`

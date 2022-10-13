@@ -6,41 +6,197 @@ import { BlockKitModal } from './components/BlockKItModal/BlockKitModal';
 
 function App() {
   const data = {
-    // type: 'modal',
-    // title: {
-    //   type: 'plain_text',
-    //   text: 'My App',
-    //   emoji: true
-    // },
-    // submit: {
-    //   type: 'plain_text',
-    //   text: 'Okay',
-    //   emoji: true
-    // },
-    // close: {
-    //   type: 'plain_text',
-    //   text: 'Gute Nacht',
-    //   emoji: true
-    // },
+    type: 'modal',
+    title: {
+      type: 'plain_text',
+      text: 'My App',
+      emoji: true
+    },
+    submit: {
+      type: 'plain_text',
+      text: 'Submit',
+      emoji: true
+    },
+    close: {
+      type: 'plain_text',
+      text: 'Cancel',
+      emoji: true
+    },
     blocks: [
       {
         "type": "input",
         "element": {
-          "type": "timepicker",
-          "initial_time": "13:37",
-          "placeholder": {
-            "type": "plain_text",
-            "text": "Select time",
-            "emoji": true
-          },
-          "action_id": "timepicker-action"
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
         },
         "label": {
           "type": "plain_text",
           "text": "Label",
           "emoji": true
         }
-      }
+      },
+      {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      },
+      {
+        "type": "divider"
+      },
+      {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      }, {
+        "type": "input",
+        "element": {
+          "type": "plain_text_input",
+          "multiline": true,
+          "action_id": "plain_text_input-action"
+        },
+        "label": {
+          "type": "plain_text",
+          "text": "Label",
+          "emoji": true
+        }
+      },
     ]
   };
 

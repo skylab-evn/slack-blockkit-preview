@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +67,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
+
+
+# Slack blockKit prewiew
+
+
+ 
+ 
+
+
+## Authors
+
+- [Sky Lab github](https://www.github.com/skylab-evn)
+- [Sky Lab linkedin](https://www.linkedin.com/company/sky-lab-arm/mycompany/verification/)
+
+
+![Logo](https://media-exp1.licdn.com/dms/image/C4D0BAQEOi7ByhnO1mg/company-logo_200_200/0/1634132733081?e=1673481600&v=beta&t=LKstAn10Hy17o_2Kat-x18AxrfXRW1LBRlx7ThzRH98)
+
+
+## Installation
+
+Install Slack Blockkit builder with npm or yarn
+
+```bash
+  npm install slack-block-kit-peview
+```
+or
+
+```bash
+yarn add slack-block-kit-peview
+```
+    
