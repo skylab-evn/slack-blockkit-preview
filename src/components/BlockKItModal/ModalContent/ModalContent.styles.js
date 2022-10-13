@@ -8,5 +8,5 @@ export const Main = styled.div`
 
 export const ScrollBlock = styled.div`
  max-height: 520px;
-overflow-y: auto;
+ overflow-y: auto;
 `
